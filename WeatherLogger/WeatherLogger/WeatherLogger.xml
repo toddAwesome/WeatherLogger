@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WeatherLoggerConfig>
+   <ModuleName>WeatherLogger</ModuleName>
+   <ReadyEventName>WEATHER_LOGGER_READY</ReadyEventName>
+   <OutputLogInfo>
+      <DiagnosticLevel>3</DiagnosticLevel>
+      <LogFileMode>None</LogFileMode>
+      <LogFileName>WeatherLoggerLog.txt</LogFileName>
+      <OverwriteLog>True</OverwriteLog>
+      <OutputStatusTime>3</OutputStatusTime>
+   </OutputLogInfo>
+   <OutputQueue>
+      <Name>WEATHER_QUEUE</Name>
+      <NumBuffers>2048</NumBuffers>
+      <BufferSize>382</BufferSize>
+      <OpenMethod>CREATE</OpenMethod>
+   </OutputQueue>
+   <ComPortInfo>
+      <PortName>COM9</PortName>
+      <BaudRate>19200</BaudRate>
+      <DataBits>8</DataBits>
+      <Parity>None</Parity>
+      <StopBits>1</StopBits>
+   </ComPortInfo>
+   <OutputChannelId>13</OutputChannelId>
+   <TimeOffset>8</TimeOffset>
+   <DeviceStreamFormat>WeatherReportLogger</DeviceStreamFormat>
+</WeatherLoggerConfig>

@@ -1,0 +1,1 @@
+C:\DevEnv\WeatherLogger\WeatherLogger\bin\Debug\WeatherLogger.exe.config
